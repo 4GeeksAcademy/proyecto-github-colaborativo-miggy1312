@@ -1,0 +1,46 @@
+<article
+  class="group w-full overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+  itemscope
+  itemtype="https://schema.org/Product"
+  aria-label="Product card"
+>
+  <a href="/product.html" class="block focus:outline-none focus-visible:ring-2 focus-visible:ring-black/70" itemprop="url">
+    <figure class="relative aspect-square w-full overflow-hidden bg-gray-50">
+      <img
+        src="/assets/images/product-headphones.jpg"
+        alt="Premium wireless noise-canceling headphones in matte black"
+        class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        itemprop="image"
+        loading="lazy"
+        decoding="async"
+      />
+      <meta itemprop="sku" content="WH-9000-BLK" />
+      <meta itemprop="brand" content="Nova Audio" />
+    </figure>
+  </a>
+
+  <div class="space-y-3 p-4 sm:p-5">
+    <p class="text-xs font-medium uppercase tracking-wide text-gray-500" itemprop="category">Audio</p>
+
+    <h3 class="text-base font-semibold leading-snug text-gray-900 sm:text-lg" itemprop="name">
+      Nova Pro Wireless Headphones
+    </h3>
+
+    <div class="flex items-end justify-between gap-3" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+      <p class="text-lg font-bold text-gray-900 sm:text-xl" aria-label="Price 249 dollars">
+        <span itemprop="priceCurrency" content="USD">$</span><span itemprop="price" content="249.00">249.00</span>
+      </p>
+      <link itemprop="availability" href="https://schema.org/InStock" />
+
+      <button
+        type="button"
+        class="inline-flex items-center justify-center rounded-xl bg-black px-4 py-2 text-sm font-medium text-white transition-colors duration-200 hover:bg-gray-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/70"
+        aria-label="Add Nova Pro Wireless Headphones to cart"
+      >
+        Add to cart
+      </button>
+    </div>
+
+    <meta itemprop="description" content="Premium wireless over-ear headphones with active noise cancellation, long battery life, and studio-grade sound." />
+  </div>
+</article>
